@@ -7,10 +7,20 @@ ModelImporter:
     100002: //RootNode
     100004: Shell
     100006: Shell_001
+    100008: Front-Paw-L
+    100010: Rear-Paw-L
+    100012: Rear-Paw-R
+    100014: Shell_002
+    100016: Tail
     400000: Front-Paw-R
     400002: //RootNode
     400004: Shell
     400006: Shell_001
+    400008: Front-Paw-L
+    400010: Rear-Paw-L
+    400012: Rear-Paw-R
+    400014: Shell_002
+    400016: Tail
     2100000: Material
     2100002: Skin
     2100004: Red
@@ -19,16 +29,51 @@ ModelImporter:
     2300002: //RootNode
     2300004: Shell
     2300006: Shell_001
+    2300008: Front-Paw-L
+    2300010: Rear-Paw-L
+    2300012: Rear-Paw-R
+    2300014: Shell_002
+    2300016: Tail
     3300000: Front-Paw-R
     3300002: //RootNode
     3300004: Shell
     3300006: Shell_001
+    3300008: Front-Paw-L
+    3300010: Rear-Paw-L
+    3300012: Rear-Paw-R
+    3300014: Shell_002
+    3300016: Tail
     4300000: Shell
     4300002: Front-Paw-R
     4300004: Shell_001
+    4300006: Front-Paw-L
+    4300008: Rear-Paw-L
+    4300010: Rear-Paw-R
+    4300012: Shell_002
+    4300014: Tail
     7400000: Default Take
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eye
+    second: {fileID: 2100000, guid: 2588671cb359e4622adf312a3791c0aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red
+    second: {fileID: 2100000, guid: 4db7113394684478bb671c0780c8a3d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shell
+    second: {fileID: 2100000, guid: a99de066618254a22a17170e303dd254, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skin
+    second: {fileID: 2100000, guid: c27f817b14f034aedabbb47b9a387605, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
