@@ -101,5 +101,26 @@ With that, working turtle.
 
 ## 3. Controls
 
-So far the turtle is moving on its own. This might be useful in some way but
-what I'd like today is *controlling* the turtle.
+So far the turtle is moving on its own. Might be useful but today we are
+*controlling* the turtle.
+
+Mapped controls to each leg. But now, each leg on its own does not have enough
+traction to move the turtle. Can't tell whether that's real or not
+(turtles are strong!) but it's no fun.
+
+## 4. More Physics?
+
+Of course we can increase the strength. But I feel that another problem here
+is during locomotion, when a leg is at 'rest' it still generates a torque
+that's used to keep the turtle off the ground.
+
+Not hot handling these forces separately so how about we cancel gravity a
+little by lifting the shell?
+
+Another issue is mass. My turtle feels like 2 pounds; the paws aren't really heavy. In the initial setup all bodies had m = 1. So it would make sense if
+the body was m = 0.5, and each paw ~ 0.1.
+
+Results with all that inconclusive, or counter-productive.
+
+Don't know what I'll do about this. For now the turtle is a bit slow for fun
+so I cheated it and increased time scale.

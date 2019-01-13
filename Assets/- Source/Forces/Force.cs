@@ -9,7 +9,10 @@ public class Force : MonoBehaviour {
 	public float amount = 10f;
 
 	void FixedUpdate(){
-		body.AddForceAtPosition(direction*amount, origin.position);
+		var f = direction*amount; if(origin)
+			body.AddForceAtPosition(f, origin.position);
+		else
+			body.AddForce(f);
 	}
 
 	Rigidbody body{get{ return GetComponent<Rigidbody>(); }}
