@@ -58,4 +58,16 @@ but not getting any traction. Not even after adding a rigid body to the ground.
 Another thing is that this can't make the shell and paw rotate relative to each
 other.
 
-#### A torque.
+#### A torque
+
+With a torque, we're generating a rotation around the axis. So unlike with the
+force I apply that torque directly at the shoulder. This totally does a thing.
+
+### Flapping a limb
+
+The next thing I did just want was flapping a limb up and down. Luckily,
+tweaking the torque axis just a little achieved forward traction.
+
+>> https://youtu.be/nzeA4bQU-NQ
+
+Going to clean the turtle tank now (5:14pm)
