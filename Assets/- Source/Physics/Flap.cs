@@ -16,7 +16,7 @@ public class Flap : MonoBehaviour {
 	void FixedUpdate(){
 		var u = transform.parent.TransformDirection(direction);
 		output = amount*Mathf.Cos(Time.time*scalar)*traction;
-		body.AddTorque(direction*output);
+		body.AddTorque(u*output);
 	}
 
 	Rigidbody body{get{ return GetComponent<Rigidbody>(); }}

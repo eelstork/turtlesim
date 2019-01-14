@@ -11,9 +11,18 @@ public class Input : MonoBehaviour {
 
 	void Update(){
 		foreach(string k in limbs){
-			this.Find(k).Get<Flap>().enabled = player.GetButton(k);
+			Limb(k).enabled = player.GetButton(k);
+		}
+		if(player.GetButtonDown("Switch")){
+			foreach(string k in limbs){
+				var limb = Limb(k);
+				var u = limb.direction; u.y = -u.y;
+				limb.direction = u;
+			}
 		}
 	}
+
+	Flap Limb(string s){ return this.Find(s).Get<Flap>(); }
 
 	/*
 	public static bool GetKey(string action){

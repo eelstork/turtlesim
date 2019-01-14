@@ -1,3 +1,19 @@
+# Monday Jan 14 - 12:00 PM
+
+The only track in the game was too hard. Made another;
+now I need a track selector.
+
+(4:15) Unsurprisingly didn't get a chance to update this until
+the Tortle jam end. Tagging the jam version.
+
+Looks like the original game was made in 10~12 hours. At this
+point biggest 'regrets' in order:
+
+- Featured only one track, where 5 lines of code would give two.
+- Only supported the gamepad
+- Aspect ratio looks odd in my builds
+- No web version
+
 # Sunday Jan 13 - 2:43 PM
 
 My biggest Q with this project is what type of joint should be used, if any. I
@@ -124,3 +140,9 @@ Results with all that inconclusive, or counter-productive.
 
 Don't know what I'll do about this. For now the turtle is a bit slow for fun
 so I cheated it and increased time scale.
+
+## 5. The game
+
+A want a game that's playable, and winnable; so I created a race track.
+
+Also, trying this: https://ax23w4.itch.io/pixelate
